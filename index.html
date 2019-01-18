@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DatePicker</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <div class="widget-container">
+
+    <div class="widget-title">
+      <span class="widget-title__text"></span>
+      <i class="fa fa-calendar"></i>
+    </div>
+
+    <div class="widget-options">
+
+      <div class="period-dropdown">
+
+        <div class="period-dropdown__pseudo-button option">
+          <span class="period-dropdown__text"></span>
+          <i class="fa fa-angle-down"></i>
+        </div>
+
+        <div class="period-dropdown__content hidden">
+          <ul class="dropdown-list">
+            <li class="dropdown-item option">
+              <span class="dropdown-text">Custom</span>
+              <i class="fa fa-check"></i>
+            </li>
+            <li class="dropdown-item option">
+              <span class="dropdown-text">Today</span>
+              <i class="fa fa-check"></i>
+            </li>
+            <li class="dropdown-item option">
+              <span class="dropdown-text">Yesterday</span>
+              <i class="fa fa-check"></i>
+            </li>
+            <li class="dropdown-item option">
+              <span class="dropdown-text">Last 7 days</span>
+              <i class="fa fa-check"></i>
+            </li>
+            <li class="dropdown-item option">
+              <span class="dropdown-text">Last 30 days</span>
+              <i class="fa fa-check"></i>
+            </li>
+            <li class="dropdown-item option">
+              <span class="dropdown-text">Last 90 days</span>
+              <i class="fa fa-check"></i>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="timezone-option option">
+        <span class="timezone-option__text">Curr timezone</span>
+        <i class="fa fa-angle-down"></i>
+      </div>
+
+      <div class="period-container">
+
+        <div class="from-date">
+          <div class="date-text">
+            <span>From</span>
+          </div>
+          <div class="from-date__option date-option option">
+            <div>date-1</div>
+            <i class="fa fa-calendar"></i>
+          </div>
+          <div class="datepicker-begin datepicker hidden">
+            <div class="datepicker-title">
+              <div class="arrow-left controls">&lsaquo;</div>
+              <div class="datepicker-title_begin"></div>
+              <div class="arrow-right controls">&rsaquo;</div>
+            </div>
+
+            <table class="calendar-table">
+              <tr class="week-days">
+                <th>SU</th>
+                <th>MO</th>
+                <th>TU</th>
+                <th>WE</th>
+                <th>TH</th>
+                <th>FR</th>
+                <th>SA</th>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="to-date">
+         <div class="date-text">
+           <span>To</span>
+         </div>
+         <div class="to-date__option date-option option">
+           <div>date-1</div>
+           <i class="fa fa-calendar"></i>
+         </div>
+         <div class="datepicker-end datepicker hidden">
+          <div class="datepicker-title">
+            <div class="arrow-left controls">&lsaquo;</div>
+            <div class="datepicker-title_end"></div>
+            <div class="arrow-right controls">&rsaquo;</div>
+          </div>
+
+          <table class="calendar-table">
+            <tr class="week-days">
+              <th>SU</th>
+              <th>MO</th>
+              <th>TU</th>
+              <th>WE</th>
+              <th>TH</th>
+              <th>FR</th>
+              <th>SA</th>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="confirm-option">
+     <div class="button-group">
+       <button class="button-cancel button">CANCEL</button>
+       <button class="button-apply button">APPLY</button>
+     </div>
+   </div>
+
+ </div>
+
+</div>
+
+
+<script src="js/index.js"></script>
+</body>
+</html>

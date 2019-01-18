@@ -1,0 +1,146 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.widget-container {
+  margin: auto;
+  margin-top: 10%;
+  width: 350px;
+  border: 2px solid #808080FF;
+}
+
+.widget-title {
+  border-bottom: 2px solid #808080FF;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.widget-options {
+  margin: 2%;
+}
+
+.period-dropdown {
+  margin-bottom: 2%;
+  width: 100%;
+}
+
+.period-dropdown__pseudo-button {
+  box-sizing: border-box;
+}
+
+.period-dropdown__content {
+  z-index: 1;
+  background-color: #f1f1f1;
+  position: fixed;
+  box-sizing: border-box;
+  border: 2px solid #808080FF;
+}
+
+.dropdown-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.option {
+  padding: 5px;
+  border: 2px solid #808080FF;
+  display: flex;
+  justify-content: space-between;
+}
+
+.option:hover {
+  cursor: pointer;
+}
+
+.timezone-option {
+  margin-bottom: 2%;
+}
+
+.period-container {
+  margin-bottom: 2%;
+}
+
+.from-date, .to-date {
+  width: 48%;
+}
+
+.date-text {
+  margin-bottom: 2%;
+}
+
+.period-container, .confirm-option {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropdown-item {
+  border: none;
+}
+
+.dropdown-item:hover {
+  background: #808080ff;
+  color: #fff;
+}
+
+.datepicker {
+  width: 48%;
+  height: 200px;
+  position: fixed;
+  z-index: 1;
+  background-color: #fff;
+  border: 2px solid #808080FF;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.datepicker-title {
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.calendar-table {
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.controls:hover, .calendar-day:hover {
+  cursor: pointer;
+}
+
+.button {
+  padding: 5px;
+  width: 80px;
+}
+
+.button-cancel {
+  background: #fff;
+  border: 2px solid #808080ff;
+  color: #808080ff;
+}
+
+.button-apply {
+  background: #ff0000;
+  border: 2px solid #ff0000;
+  color: #fff;
+}
+
+.other-month {
+  color: #bab1a2;
+}
+
+.confirm-option {
+justify-content: flex-end;
+}
+
+.fa-check {
+  color: #fff;
+}
